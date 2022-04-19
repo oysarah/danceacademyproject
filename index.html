@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Indexpage</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+            body {
+                position: relative;
+            }
+
+            .affix {
+                top: 0;
+                width: 100%;
+                z-index: 9999 !important;
+            }
+
+            .navbar {
+                margin-bottom: 0px;
+            }
+
+            .affix+.container {
+                position: relative;
+                top: 50px;
+            }
+
+            #grad {
+                background-image: linear-gradient(to right, #5a0e5e, #30212e8f);
+            }
+        </style>
+        <script>
+            $(document).ready
+                (function () {
+                    $('[data-toggle="tooltip"]').tooltip();
+                });
+            $(document).ready
+                (function () {
+                    $('[data-toggle="popover"]').popover();
+                });
+        </script>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-to" style="border-radius: 0;" id="grad">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" style="color: antiquewhite;"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><span class="glyphicon glyphicon-envelope "></span>info133@danceart.com</a>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-earphone"></span>Toll free: 09999999000</a>
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">AboutUs</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact us
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mobile number</a></li>
+                                <li><a href="#">Email ID</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user "></span>Register</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+                                Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <ul class="breadcrumb">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">....</a></li>
+        </ul>
+        <div class="container">
+            <div class="carousel slide" id="mycarousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0"></li>
+                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <img src="./img.html/groove-fit-highlights.jpeg" style="width: 100%;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img.html/cara.jpg" style="width: 100%;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item active">
+                        <img src="./img.html/cara.jpg" style="width: 100%;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+        </div>
+        <!-- first nav close -->
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset="10"
+            style="border-radius: 0; padding: 15px 0; background: #000; font-size: 1.2rem; text-transform: uppercase;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar2">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand"
+                        style="color: antiquewhite; font-size:28px;font-weight: 300px; font-family: Monoton ;"
+                        href="#"><i>THE DANCE ART
+                            ACADEMY</i></a>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar2">
+                    <ul class="nav navbar-nav mx-auto my-0 navbar-right" style="color: black !important;">
+                        <!-- <li><a href="#" style="color: antiquewhite;">Faculty</a></li> -->
+                        <li><a href="#" style="color: antiquewhite;">Pro Training</a></li>
+                        <li class="dropdown">
+                            <a href="#" style="color: antiquewhite;" class="dropdown-toggle"
+                                data-toggle="dropdown">Dance classes
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Dance style</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dance course</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="./aboutfaculity.html" style="color: antiquewhite;">Faculity</a></li>
+                        <li class="dropdown">
+                            <a href="#" style="color: antiquewhite;" class="dropdown-toggle"
+                                data-toggle="dropdown">Media
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Filmography</a>
+                                </li>
+                                <li>
+                                    <a href="#">Event and Show</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" style="color: antiquewhite;">Workshop & Events</a></li>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid" style="background-color: #000;">
+            <div class="row">
+                <div class="col-sm-5" style="padding: 40px 20px;">
+                    <img class="img-responsive" src="./img.html/img11.png"
+                        style="height: fit-content; max-height: 500px;">
+                </div>
+                <div class="col-sm-7" style="color: #e4b9d9;">
+                    <h2 style="padding: 20px 0;"><i>Online Dance Classes for
+                            Kids and Adults</i></h2>
+                    <h4 style="color:rgb(241, 244, 247); line-height: 30px; letter-spacing: 1px;">If you are looking
+                        for dance classes in
+                        Mumbai &
+                        Delhi or any where, you've come
+                        to the right
+                        place! Ballet, Jazz, Contemporary, Jazz Funk, Heels, Street. We've got it all!
+                        You can also access a real, professional and international dance education in all of
+                        the above styles, no matter where you are located through our online dance
+                        classes!</h4>
+                </div>
+            </div>
+        </div>
+        <div class="text-center"
+            style="margin-bottom: -80px;position: relative; z-index: 1; margin-top: -50px; color: rgba(0, 0, 0, 0.283);">
+            <h3 style="font-size:clamp(30px,70px,100px); font-weight: 800; ">We</h3>
+            <h1 style="font-size:200px; font-weight: 800; ">TEACH</h1>
+        </div>
+        <div class="row" style="border:gray;">
+            <div class="col-md-4">
+                <table class="table">
+                    <tr>
+                        <td colspan="2" class="text-center">
+                            <img class="img-rounded" src="./img.html/funk.jpg " style="height: auto;width: 350px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h2 style="color:gray;text-align: center;">Jazz Funk</h2>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table">
+                    <tr>
+                        <td colspan="2" class="text-center">
+                            <img class="img-rounded" src="./img.html/funk2.jpg" style="height: auto;width: 350px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h2 style="color:grey;text-align: center;">Jazz</h2>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table">
+                    <tr>
+                        <td colspan="2" class="text-center">
+                            <img class="img-rounded" src="./img.html/funk3.jpg" style="height: auto;width: 350px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h2 style="color:gray;text-align: center;">Street</h2>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- <div class="container" style="display: flex; justify-content: center;">
+            <button class="btn btn-info"
+                style="height: 50px; width: 600px; margin-bottom: 20px;color: black; font-weight:600 ;border-radius:20px;font-size:20px;">Registation
+                OpenNow</button>
+            <button class="btn btn-warning"
+                style="height: 50px; width: 250px;margin-bottom: 20px;color: black;font-weight:600;border-radius:20px;font-size:20px;">NEW
+                <span class="label label-danger">offer</span>
+            </button>
+        </div> -->
+        <div class="container-fluid" style="background-color: rgba(106, 50, 109, 0.772);">
+            <div class="row">
+                <div class="col-sm-7" style="color: #f3ea90;">
+                    <h2 style="padding: 20px 0;"><i>HIGHLIGHTS OF THE MONTH
+                            All the latest action this month at The Danceworx</i></h2>
+                    <div style="display: flex;flex-wrap: wrap;">
+                        <img class="img-circle" src="./img.html/yoga.png" style="height: auto;width: 250px;">
+                        <p style="color: antiquewhite;">New online batches
+                        <p>
+                            <img class="img-circle" src="./img.html/Highlights-yoga.jpg"
+                                style="height: auto;width: 250px;">
+                        <p style="color: antiquewhite;">Yoga
+                        <p>
+                    </div>
+                </div>
+                <div class="col-sm-5" style="padding: 40px 20px;">
+                    <img class="img-rounded" src="./img.html/girl.png"
+                        style="height: fit-content; max-height: 500px;">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-color: #474346; ">
+            <div class="row">
+                <div class="col-sm-5" style="display: flex;align-items: center;">
+                    <a href="#" data-toggle="popover" title="Get new updates here"
+                        style="font-size: 30px; font-weight: 200;color: antiquewhite;text-decoration: none;margin-top:10px; padding-left: 20px;">Subscribe
+                        Our Newsletter</a>
+                </div>
+                <div class="col-sm-7">
+                    <input type="email"
+                        style="border:none; border-radius: 4px; font-size: 15px;padding:10px 5px;margin: 12px; width: 300px;"
+                        placeholder="Email address" />
+                    <button class="btn btn-warning" style="width:150px; padding: 10px 5px;">Submit</button>
+                    <button class="btn btn-danger" style="width:150px; padding: 10px 5px;">
+                        New Visitor's <span class="badge">30</span></button>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!-- Footer part -->
+        <div class="container-fluid" style="background-color: #e4b9d9; padding: 40px;">
+            <div class="row" style="padding:15px;">
+                <div class="col-md-3" style="padding: 6px;">
+                    <h3 style="color:#5a0e5e;"><b>Company</b></h3>
+                    <ul type="disc">
+                        <li>
+                            <h5>About Us</h5>
+                        </li>
+                        <li>
+                            <h5>Privacy Policy</h5>
+                        </li>
+                        <li>
+                            <h5>Terms and Conditions </h5>
+                        </li>
+                        <li>
+                            <h5>Fees and payment policy </h5>
+                        </li>
+                        <li>
+                            <h5>Return & Refund </h5>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3" style="padding: 6px;">
+                    <h3 style="color:#5a0e5e;"><strong>Contact Us</strong></h3>
+                    <h5>For any quaries contact us: </h5>
+                    <h5><span class="glyphicon glyphicon-earphone"></span> 09995789000 </h5>
+                    <h5><a href="#"><span class="glyphicon glyphicon-envelope" style="color: #5c1534;"></span>
+                            support@lms.com</a></h5>
+                </div>
+                <div class="col-md-3" style="padding: 6px;">
+                    <!-- <h3 style="color:#5a0e5e;"><b>Social</b></h3> -->
+                    <h3><b><a href="#" data-toggle="tooltip" title="Follow us here"
+                                style="color: #5a0e5e;">Social</a></b>
+                        <a href="#">
+                            <h5>Facebook</h5>
+                        </a>
+                        <a href="#">
+                            <h5>Twitter</h5>
+                        </a>
+                        <a href="#">
+                            <h5>Linkedin</h5>
+                        </a>
+                        <a href="#">
+                            <h5>Instagram</h5>
+                        </a>
+                        <a href="#">
+                            <h5>Youtube</h5>
+                        </a>
+                </div>
+                <div class="col-md-3" style="padding: 6px;">
+                    <h3 style="color:#5a0e5e;"><strong>Subscribe Us</strong></h3>
+                    <p><i style="font-weight: bold;">Get a free demo classes</i></p>
+                    <input type="email" style="border:none; border-radius: 4px; font-size: 15px;"
+                        placeholder="email address" />
+                    <button class="btn btn-sm btn"><span class="glyphicon glyphicon-arrow-right"></span></button>
+                </div>
+            </div>
+            <div class="row" style="padding:7px">
+                <div class="col-sm-8">
+                    <b style="color:#5a0e5e;">Follow Us: </b>
+                    <a href="#"><img class="img-rounded" src="./img.html/White Instagram logo.png.webp" height="30"
+                            width="30"></a>
+                    <a href="#"><img class="img-rounded" src="./img.html/facebook.png.webp" height="30" width="30"></a>
+                    <a href="#"><img class="img-rounded" src="./img.html/twitter.png.webp" height="30" width="30"></a>
+                    <a href="#"><img class="img-rounded" src="./img.html/youtube.png.webp" height="30" width="30"></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <ul class="pagination pagination-lg ">
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">Next</a></li>
+            </ul>
+        </div>
+    </body>
+    </body>
+
+</html>
